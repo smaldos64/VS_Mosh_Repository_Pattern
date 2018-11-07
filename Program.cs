@@ -66,6 +66,8 @@ namespace Mosh_Repository_Pattern
                 UnitOfWork_Object.Products.Remove(Product_Object1);
                 UnitOfWork_Object.Complete();
                 Console.WriteLine("Slettet Produkt med ProductID " + StartValue);
+
+                Console.ReadLine();
             }
         }
     }

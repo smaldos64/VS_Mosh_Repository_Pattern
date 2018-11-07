@@ -11,7 +11,6 @@ namespace Mosh_Repository_Pattern.Repository
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        //protected readonly DatabaseContext Context;
         protected readonly DbContext Context;
 
         public Repository(DatabaseContext context)
